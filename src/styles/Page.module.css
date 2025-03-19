@@ -1,0 +1,61 @@
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.jobTitle {
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: start;
+    font-size: 18px;
+}
+
+.groupHeader {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.groupInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.groupInfoRow {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.groupInfoRowHeader {
+    font-weight: 600;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
